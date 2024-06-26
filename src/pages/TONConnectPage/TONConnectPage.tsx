@@ -48,6 +48,8 @@ export const TONConnectPage: FC = () => {
     },
   } = wallet;
 
+
+  console.log("wallet", wallet)
   return (
     <List>
       {'imageUrl' in wallet && (
