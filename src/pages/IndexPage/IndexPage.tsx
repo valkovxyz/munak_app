@@ -6,6 +6,7 @@ import { Link } from '@/components/Link/Link.tsx';
 import tonSvg from './ton.svg';
 
 import './IndexPage.css';
+import {TonConnectButton} from "@tonconnect/ui-react";
 
 export const IndexPage: FC = () => {
   return (
@@ -21,6 +22,7 @@ export const IndexPage: FC = () => {
           >
             TON Connect
           </Cell>
+            <TonConnectButton />
         </Link>
       </Section>
       <Section
